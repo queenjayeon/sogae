@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select,
+figure,
+span {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+html {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    font-weight: bold;
+}
+
+body {
+    font-family: 'GowunBatang-Regular', 'SpoqaHanSansNeo-Regular', 'Noto Sans', sans-serif;
+    word-break: keep-all;
+    line-height: 24px;
+
+    position: relative;
+    /* header 기준 */
+
+    /* cursor: url(../images/icon/icon_cursor.png), auto; */
+}
+
+#wrap {
+    min-width: 1320px;
+}
+
+/* main_wrap */
+#main_wrap {
+    height: 900px;
+    
+    background-image: url(../images/sub1_about/banner/gallery_banner.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.main_banner {
+    width: 1320px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.main_banner h1 {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
